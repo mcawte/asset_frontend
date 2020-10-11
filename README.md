@@ -1,4 +1,3 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 This project can be run quickly by copying the build directory to a local folder and running
 the index.html file with your browser.
@@ -15,6 +14,10 @@ top of the map, along with the distance since last check in.
 To check-in a new asset, add the asset id, lattitude, and longitude in the fields above the map
 and click the add asset button. When new assets are added to the csv file the websockets server will 
 broadcast the new assets to the front-end client.
+
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
 
 ## Available Scripts
 
