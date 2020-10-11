@@ -1,4 +1,25 @@
+
+## Project details and instructions
+
+This project can be run quickly by copying the build directory to a local folder and running
+the index.html file with your browser.
+
+The index.html file will expect the sockets server to be running on 127.0.0.1:8000.
+
+If the index.html file is run before the sockets server, refresh the page to make 
+the connection.
+
+The index.html file should display a map of all the current assets. If the asset locations are
+moused over on the map, the date time of when the asset was checked in will display along the 
+top of the map, along with the distance since last check in.
+
+To check-in a new asset, add the asset id, lattitude, and longitude in the fields above the map
+and click the add asset button. When new assets are added to the csv file the websockets server will 
+broadcast the new assets to the front-end client.
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
 
 ## Available Scripts
 
