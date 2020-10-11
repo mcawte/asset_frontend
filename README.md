@@ -1,4 +1,6 @@
 
+## Project details and instructions
+
 This project can be run quickly by copying the build directory to a local folder and running
 the index.html file with your browser.
 
