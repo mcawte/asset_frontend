@@ -18,6 +18,10 @@ and click the add asset button. When new assets are added to the csv file the we
 broadcast the new assets to the front-end client.
 
 
+To run this project locally in development mode, download the respository and
+run `yarn install` or `npm i` and then `yarn start` or `npm start`.
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 
